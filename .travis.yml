@@ -7,5 +7,5 @@ before_script:
     - pip install -r requirements.txt
     - pip install pycodestyle
 script:
-   - pycodestyle Activity2.py
+   - pycodestyle  Activity2.py
    - python Activity2.py
