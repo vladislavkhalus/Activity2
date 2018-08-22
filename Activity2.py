@@ -2,7 +2,7 @@ import math
 import pandas as panda
 import matplotlib.pyplot as plt
 
-data_field1 = panda.read_csv('sensor.csv')
+data_field1 = panda.read_csv('Sensor.csv')
 x_value = data_field1['ORIENTATIONX']
 y_value = data_field1['ORIENTATIONY']
 a_value = data_field1['LIGHT']
